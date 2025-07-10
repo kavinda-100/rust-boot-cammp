@@ -1,13 +1,13 @@
 pub fn start(){
 
-    let age_to_check = 18;
+    let age_to_check: u16 = 18;
 
     println!("Enter your age:");
     let mut input = String::new();
 
     while true {
         std::io::stdin().read_line(&mut input).expect("Failed to read line");
-        let res: Result<i32, _> = input.trim().parse();
+        let res: Result<u16, _> = input.trim().parse::<u16>();
 
         match res {
             Ok(age) => {
@@ -24,7 +24,7 @@ pub fn start(){
     }
 }
 
-pub fn check_age(age: i32, age_to_check: i32) {
+pub fn check_age(age: u16, age_to_check: u16) {
     if age >= age_to_check {
         println!("You are old enough to vote.");
     } else {
