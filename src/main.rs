@@ -1,3 +1,5 @@
+mod my_functions;
+
 fn main() {
-    println!("Hello, world!");
+    my_functions::start();
 }
