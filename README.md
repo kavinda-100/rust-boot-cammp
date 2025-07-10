@@ -53,20 +53,6 @@ rust-boot-cammp/
 └── target/             # Compiled artifacts (auto-generated)
 ```
 
-## 🔧 Code Features
-
-### Current Implementations
-
-1. **Basic Functions** (`my_functions.rs`):
-   - `start()` - Entry point function that demonstrates various concepts
-   - `add(a, b)` - Simple integer addition
-   - `generic_add<T>(a, b)` - Generic addition function
-   - `print_name(first, last)` - String formatting and printing
-
-2. **Module System** (`main.rs`):
-   - Proper module declaration using `mod my_functions;`
-   - Function calling across modules
-
 ### Key Rust Concepts Demonstrated
 
 - **Modules**: Organization of code into separate files
