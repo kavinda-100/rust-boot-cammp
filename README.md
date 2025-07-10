@@ -43,13 +43,16 @@ cargo build --release
 ## 📁 Project Structure
 
 ```
-rust-boot-cammp/
+rust-boot-camp/
+├── .gitignore          # Git ignore patterns
 ├── Cargo.toml          # Project configuration and dependencies
 ├── Cargo.lock          # Dependency lock file
 ├── README.md           # This file
 ├── src/
 │   ├── main.rs         # Main entry point
-│   └── my_functions.rs # Custom functions module
+│   ├── my_functions.rs # Custom functions module
+│   ├── control_flow.rs # Control flow examples (if/else, loops)
+│   └── user_inputs.rs  # User input handling examples
 └── target/             # Compiled artifacts (auto-generated)
 ```
 
