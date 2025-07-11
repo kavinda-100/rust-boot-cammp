@@ -1,6 +1,8 @@
 mod my_functions;
 mod control_flow;
 mod user_inputs;
+mod my_closures;
+
 mod tasks;
 
 fn main() {
@@ -14,6 +16,10 @@ fn main() {
     // Call the start function from the user_inputs module
     // user_inputs::start();
 
+    // Call the start function from the my_closures module
+    my_closures::start();
+
+
     // Call the start function from the tasks::sort_values module
-    tasks::sort_values::start();
+    // tasks::sort_values::start();
 }
