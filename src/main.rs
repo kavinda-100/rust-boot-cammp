@@ -4,6 +4,7 @@ mod user_inputs;
 mod my_closures;
 
 mod tasks;
+mod my_match_expression;
 
 fn main() {
 
@@ -17,8 +18,10 @@ fn main() {
     // user_inputs::start();
 
     // Call the start function from the my_closures module
-    my_closures::start();
+    // my_closures::start();
 
+    // Call the start function from the my_match_expression module
+    my_match_expression::start();
 
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
