@@ -6,6 +6,7 @@ mod my_closures;
 mod tasks;
 mod my_match_expression;
 mod my_enums;
+mod my_option;
 
 fn main() {
 
@@ -25,7 +26,10 @@ fn main() {
     // my_match_expression::start();
 
     // Call the start function from the my_enums module
-    my_enums::start();
+    // my_enums::start();
+    
+    // Call the start function from the my_option module
+    my_option::start();
 
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
